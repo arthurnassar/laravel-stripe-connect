@@ -40,7 +40,11 @@
         {
             "name": "Simon Hamp",
             "email": "simon.hamp@me.com"
-        }
+        },
+       {
+            "name": "Arthur Nassar",
+            "email": "arthurnassar@gmail.com"
+        },
     ],
     "minimum-stability": "stable"
 }
