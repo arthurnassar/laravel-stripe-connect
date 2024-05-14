@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "SimonHamp\\LaravelStripeConnect\\": "src/"
+            "ArthurNassar\\LaravelStripeConnect\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SimonHamp\\LaravelStripeConnect\\Tests\\": "tests/"
+            "ArthurNassar\\LaravelStripeConnect\\Tests\\": "tests/"
         }
     },
     "extra": {
