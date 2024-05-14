@@ -1,13 +1,13 @@
 <?php
 
-namespace SimonHamp\LaravelStripeConnect;
+namespace ArthurNassar\LaravelStripeConnect;
 
 use Stripe\StripeClient;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use SimonHamp\LaravelStripeConnect\Interfaces\StripeConnect as StripeConnectInterface;
+use ArthurNassar\LaravelStripeConnect\Interfaces\StripeConnect as StripeConnectInterface;
 
 class ServiceProvider extends BaseServiceProvider
 {
