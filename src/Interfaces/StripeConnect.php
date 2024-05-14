@@ -1,6 +1,6 @@
 <?php
 
-namespace SimonHamp\LaravelStripeConnect\Interfaces;
+namespace ArthurNassar\LaravelStripeConnect\Interfaces;
 
 use Stripe\StripeClient;
 
