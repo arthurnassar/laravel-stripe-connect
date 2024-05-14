@@ -44,7 +44,7 @@
        {
             "name": "Arthur Nassar",
             "email": "arthurnassar@gmail.com"
-        },
+        }
     ],
     "minimum-stability": "stable"
 }
