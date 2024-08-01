@@ -71,12 +71,13 @@ trait Payable
         return $link->url;
     }
 
-    public function transfer($amount, $currency): Transfer
+    public function transfer($amount, $currency, $source_transaction = null): Transfer
     {
         // TODO: capture this in the database, which may allow us to do a reversal later
         return static::$stripe->transfers->create([
             'amount' => $amount,
             'currency' => $currency,
+            'source_transaction' => $source_transaction,
             'destination' => $this->getStripeAccountId(),
         ]);
     }
